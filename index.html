@@ -1,8 +1,39 @@
 <body>
     <head>
+        <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
         <script type="text/javascript" src="index.js"></script>
+
+        <script type="text/javascript" src="jsmol/js/JSmol.full.js"></script>
+
+        <script type="text/javascript" src="JSmolInit.js"></script>
+        <script type="text/javascript" src="HandleQuestion.js"></script>
+
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <table width=1000 cellpadding=10>
+            <div id="appdiv0"></div>
+        </table>
 
+        <div class="key"></div>
+        
+        <div class="everything">
+            <div class="form">
+                <label for="name">What is the name of this molecule? </label>
+                <input id="name-input" type="text" name="name">
+                <button class="submit" type="submit" onclick="handleSubmit()">Submit Molecule Name</button>
+            </div>
+        
+            <div class="hidden feedback">
+                <div class="hidden correct">
+                    <p>You are correct.</p>
+                </div>
+                <div class="hidden incorrect">
+                    <p>You are incorrect.</p>
+                    <p>Submit another guess or move on to another question</p>
+                </div>
+                <button class="nextquestion" type="nextquestion" onclick="handleQuestion()">Next Question</button>
+            </div>
+        </div>
     </body>
 </body>
