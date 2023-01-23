@@ -37,6 +37,7 @@ body {
     min-width: 100px;
     border-radius: 5px;
 }
+
 button {
     background-color: #d12e0a;
     padding: 5px;
@@ -55,4 +56,14 @@ button {
 button:hover {
     background-color: #ddc0ba;
     color: darkslategray;
+}
+
+.credits {
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid rgb(49, 40, 40);
 }
