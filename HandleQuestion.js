@@ -20,7 +20,6 @@ const possMols = [
     ['SeCl4', 'selenium tetrachloride'],
     ['SeS2', 'selenium disulfide'],
     ['CCl4', 'carbon tetrachloride'],
-    ['CCl6', 'carbon hexachloride'],
     ['ICl3', 'iodine trichloride'],
     ['NO', 'nitrogen monoxide'],
     ['CP2', 'carbon diphosphide'],
