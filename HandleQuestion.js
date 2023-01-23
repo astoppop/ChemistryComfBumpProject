@@ -22,7 +22,6 @@ const possMols = [
     ['CCl4', 'carbon tetrachloride'],
     ['ICl3', 'iodine trichloride'],
     ['NO', 'nitrogen monoxide'],
-    ['CP2', 'carbon diphosphide'],
 ]; 
 
 const colorKey = {
